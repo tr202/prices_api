@@ -20,7 +20,7 @@ database with tables"""
 
 class Command(BaseCommand):
     # Show this when the user types help
-    help = "Loads data from children.csv"
+    help = "Loads data from listing-detail.csv"
 
     def handle(self, *args, **options):
         # Show this when the data already exist in the database
