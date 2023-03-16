@@ -17,7 +17,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'api.apps.ApiConfig',
-    
 ]
 
 MIDDLEWARE = [
@@ -57,8 +56,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-
 
 LANGUAGE_CODE = 'ru-RU'
 

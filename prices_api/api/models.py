@@ -11,6 +11,3 @@ class Listing(models.Model):
     min_cpm = models.FloatField()
     priority = models.FloatField()
     bid_price = models.FloatField()
-
-
-
