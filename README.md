@@ -14,5 +14,9 @@ git clone https://github.com/tr202/prices_api.git
 docker build .
 docker run -it 8000:8000 <номер контейнера из вывода предыдущей команды>
 ``` 
+Проверьте работу
+```
+http://<ip или имя вашего хоста например - localhost>:8080/listings?min_price=0.0081&max_price=0.15&min_min_cpm=1&max_min_cpm=2
+```
 - Автор Kostya
 - tr202@ya.ru
