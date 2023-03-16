@@ -3,20 +3,16 @@ app_api
 ### Технологии
 Python 3.9
 Django 2.2.19
+Docker
 ### Запуск проекта в dev-режиме
-- Установите и активируйте виртуальное окружение
+- Скопируйте проект на хост с докер 
 ```
-python3 -m venv venv
+git clone https://github.com/tr202/prices_api.git
 ```
-- Установите зависимости из файла requirements.txt
+- В папке с Dockerfile выполните команды
 ```
-pip install -r requirements.txt
+docker build .
+docker run -it 8000:8000 <номер контейнера из вывода предыдущей команды>
 ``` 
-- В папке с файлом manage.py выполните команды:
-```
-python3 manage.py migrate
-python3 manage.py load_listings_data
-python3 manage.py runserver
-```
 - Автор Kostya
 - tr202@ya.ru
