@@ -1,5 +1,5 @@
 # app_api
-app_api
+Test task, api with query filtering and csv data import, dockerized
 ### Технологии
 Python 3.9
 Django 2.2.19
